@@ -97,6 +97,9 @@ jobs:
       - name: Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
+        with:
+          # Automatically enable GitHub Pages for the repo on first run.
+          enablement: true
 
       - name: Build for GitHub Pages
         env:
