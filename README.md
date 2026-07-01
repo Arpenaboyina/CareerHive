@@ -44,19 +44,16 @@ npm run build
 
 ## CI/CD
 
-A GitHub Actions pipeline lives in `.github/workflows/ci.yml`:
+One simple workflow: `.github/workflows/ci.yml`
 
-- **CI** runs on every push and pull request to `main`/`master`:
-  - installs dependencies with `npm ci` (reproducible, lockfile-based),
-  - runs a production build with `CI=true` so any warning fails the build,
-  - runs the test suite, across a Node 18.x / 20.x matrix,
-  - uploads the `build/` output as an artifact.
-- **CD** deploys to **GitHub Pages** automatically on pushes to the default branch
-  (configures Pages, sets the correct `PUBLIC_URL` sub-path, adds a `404.html`
-  SPA fallback, and publishes).
+- `npm ci` → build → test → deploy (deploy only on push to `main`)
+- Builds once (~2–3 min), pushes to the `gh-pages` branch
 
-> This workflow assumes `careerhive/` is the repository root. To enable Pages
-> deploys, go to **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+**GitHub Pages setup (one time):**
+
+Settings → Pages → Source: **Deploy from a branch** → Branch: `gh-pages` / `(root)`
+
+Live site: **https://arpenaboyina.github.io/CareerHive/**
 
 ### Containerized deployment (optional)
 
