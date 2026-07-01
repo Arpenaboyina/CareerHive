@@ -44,14 +44,24 @@ npm run build
 
 ## CI/CD
 
-One simple workflow: `.github/workflows/ci.yml`
+**GitHub Actions** (auto on push/PR): `.github/workflows/ci.yml`
 
-- `npm ci` → build → test → deploy (deploy only on push to `main`)
-- Builds once (~2–3 min), pushes to the `gh-pages` branch
+**Local scripts** (run the same checks manually):
 
-**GitHub Pages setup (one time):**
+```bash
+# Linux / Mac / Git Bash
+bash scripts/ci.sh
 
-Settings → Pages → Source: **Deploy from a branch** → Branch: `gh-pages` / `(root)`
+# Windows PowerShell
+.\scripts\ci.ps1
+
+# Or via npm
+npm run ci
+```
+
+**Deploy:** push to `main` → workflow builds & publishes to `gh-pages` branch.
+
+**Pages setup (one time):** Settings → Pages → Deploy from branch → `gh-pages` / `(root)`
 
 Live site: **https://arpenaboyina.github.io/CareerHive/**
 
