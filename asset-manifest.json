@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/CareerHive/static/css/main.17c7f2a5.css",
+    "main.js": "/CareerHive/static/js/main.365aa6c9.js",
+    "static/css/77.6672fe85.chunk.css": "/CareerHive/static/css/77.6672fe85.chunk.css",
+    "static/js/77.9036cf7b.chunk.js": "/CareerHive/static/js/77.9036cf7b.chunk.js",
+    "static/css/818.acf84e80.chunk.css": "/CareerHive/static/css/818.acf84e80.chunk.css",
+    "static/js/818.25777916.chunk.js": "/CareerHive/static/js/818.25777916.chunk.js",
+    "static/css/794.fa8d559d.chunk.css": "/CareerHive/static/css/794.fa8d559d.chunk.css",
+    "static/js/794.8e835336.chunk.js": "/CareerHive/static/js/794.8e835336.chunk.js",
+    "static/css/265.f8ec7a72.chunk.css": "/CareerHive/static/css/265.f8ec7a72.chunk.css",
+    "static/js/265.64f69a93.chunk.js": "/CareerHive/static/js/265.64f69a93.chunk.js",
+    "static/css/206.36cb6695.chunk.css": "/CareerHive/static/css/206.36cb6695.chunk.css",
+    "static/js/206.0f05c684.chunk.js": "/CareerHive/static/js/206.0f05c684.chunk.js",
+    "static/css/274.3b971b13.chunk.css": "/CareerHive/static/css/274.3b971b13.chunk.css",
+    "static/js/274.b9b1ab6f.chunk.js": "/CareerHive/static/js/274.b9b1ab6f.chunk.js",
+    "static/js/937.7c45771a.chunk.js": "/CareerHive/static/js/937.7c45771a.chunk.js",
+    "index.html": "/CareerHive/index.html",
+    "main.17c7f2a5.css.map": "/CareerHive/static/css/main.17c7f2a5.css.map",
+    "main.365aa6c9.js.map": "/CareerHive/static/js/main.365aa6c9.js.map",
+    "77.6672fe85.chunk.css.map": "/CareerHive/static/css/77.6672fe85.chunk.css.map",
+    "77.9036cf7b.chunk.js.map": "/CareerHive/static/js/77.9036cf7b.chunk.js.map",
+    "818.acf84e80.chunk.css.map": "/CareerHive/static/css/818.acf84e80.chunk.css.map",
+    "818.25777916.chunk.js.map": "/CareerHive/static/js/818.25777916.chunk.js.map",
+    "794.fa8d559d.chunk.css.map": "/CareerHive/static/css/794.fa8d559d.chunk.css.map",
+    "794.8e835336.chunk.js.map": "/CareerHive/static/js/794.8e835336.chunk.js.map",
+    "265.f8ec7a72.chunk.css.map": "/CareerHive/static/css/265.f8ec7a72.chunk.css.map",
+    "265.64f69a93.chunk.js.map": "/CareerHive/static/js/265.64f69a93.chunk.js.map",
+    "206.36cb6695.chunk.css.map": "/CareerHive/static/css/206.36cb6695.chunk.css.map",
+    "206.0f05c684.chunk.js.map": "/CareerHive/static/js/206.0f05c684.chunk.js.map",
+    "274.3b971b13.chunk.css.map": "/CareerHive/static/css/274.3b971b13.chunk.css.map",
+    "274.b9b1ab6f.chunk.js.map": "/CareerHive/static/js/274.b9b1ab6f.chunk.js.map",
+    "937.7c45771a.chunk.js.map": "/CareerHive/static/js/937.7c45771a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17c7f2a5.css",
+    "static/js/main.365aa6c9.js"
+  ]
+}
