@@ -170,6 +170,7 @@ careerhive/
 ## Repository
 
 **GitHub:** [github.com/Arpenaboyina/CareerHive](https://github.com/Arpenaboyina/CareerHive)
+**Live Demo:**[https://career-hive-theta.vercel.app/](https://career-hive-theta.vercel.app/)
 
 ---
 
