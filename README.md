@@ -4,7 +4,7 @@ A premium, production-ready **Job Board** web application built with **React.js*
 
 Designed to feel like a modern tech-startup product (think Linear / Wellfound / LinkedIn Jobs) with a custom dark/light theme, polished micro-animations, fully responsive layouts, semantic HTML5, and accessibility baked in.
 
-**Live demo:** [https://arpenaboyina.github.io/CareerHive/](https://arpenaboyina.github.io/CareerHive/)
+**Live demo:** [https://career-hive-theta.vercel.app/](https://career-hive-theta.vercel.app/)
 
 ---
 
